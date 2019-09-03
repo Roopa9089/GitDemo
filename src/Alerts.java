@@ -11,6 +11,10 @@ public class Alerts {
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getTitle());
+		
 
 		String text = "Roopa";
 		driver.findElement(By.id("name")).sendKeys(text);
